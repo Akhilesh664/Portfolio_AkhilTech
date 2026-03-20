@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #ffff;
+  /* #f3ca20 */
+}
+ul {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+ul li a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: black;
+  font-weight: 600;
+}
+header H1{
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  text-shadow: -3px 2px 4px rgba(0,0,0,0.45);
+}
+header span{
+  color: #F190B7;
+}
+.car{
+    position: absolute;
+    right: 5%;
+    padding-top: 8%;
+}
+.car li{
+    list-style: none;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 2%;
+}
+ .car img{
+     display: block;
+     max-width: 160px;
+     transition: 0.7s;
+     /* box-shadow: 0px 19px 26px -12px rgba(0,0,0,0.87); */
+     /* max-height: 200px; */
+ }
+ .car img:hover{
+     transform: translateX(-70px);
+     transition: 0.7s;
+     transition-timing-function: ease;
+ }
+ .large-car img{
+   position: absolute;
+   top: 25%;
+   left: 23%;
+   max-height: 350px;
+   max-width: 500px;
+ }
+
+ .path{
+   position: absolute;
+   width: 33%;
+   height: 20vh;
+   left:25%;
+   top: 42%;
+   background:  #F190B7;
+   border-radius: 50%;
+   box-shadow: 0px 18px 0px 2px #5555;
+}

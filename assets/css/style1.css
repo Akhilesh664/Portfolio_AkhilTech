@@ -1,0 +1,48 @@
+.container {
+    background: linear-gradient(#FF416C,#FF4B2B);
+    margin: 10% auto;
+    width: 350px;
+    box-shadow: -6px 7px 22px 3px rgba(0,0,0,0.47);
+}
+
+.red {
+
+    color: red;
+    text-decoration: line-through;
+
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: aliceblue;
+    background-color: brown;
+    margin: 0% -15px;
+    text-align: center;
+
+}
+input {
+    margin: 0 -15px;
+    width: 350px;
+    padding: 10px 13px;
+    color: white;
+}
+
+input:focus{
+    outline: none;
+    color: tomato;
+    font-weight: 700;
+}
+
+ul li{
+    margin: 0%;
+    color: white;
+    font-weight: 600;
+}
+
+body {
+    background: linear-gradient(#FC466B, #3F5EFB) fixed;
+}
