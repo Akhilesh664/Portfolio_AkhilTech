@@ -60,11 +60,7 @@ The website includes all essential sections such as:
   * Web Development
   * Frontend Design
   * UI/UX Design
-  *  
-
-    AI Integration
-
-      
+  * AI Integration
 
 ### 💼 Portfolio
 
